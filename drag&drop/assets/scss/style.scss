@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    .row{
+        ul{
+            li{
+                padding: 50px;
+                border-radius: 50%;
+                border: 5px solid #000;
+                margin: 15px;
+                &.item-1{
+                    background-color: red;
+                }
+                &.item-2{
+                    background-color: yellow;
+                }
+                &.item-3{
+                    background-color: orange;
+                }
+                &.droptarget{
+                    background-color: red;
+                   padding: 100px;
+                }
+            }
+        }
+    }
+}
